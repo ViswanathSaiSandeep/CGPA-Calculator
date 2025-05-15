@@ -1,0 +1,44 @@
+div{
+    border-radius: 15px;
+    background-color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    font-family: Arial;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+input{
+    padding: 7px;
+    border-radius: 10px;
+    font-size: medium;
+    border: solid black 2px;
+    font-family: Arial;
+}
+button{
+    background-color: green;
+    color: white;
+    font-size: large;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid darkgreen 2px;
+    font-family: Arial;
+}
+body{
+    text-align: center;
+    background-color: darkblue;
+    font-family: Arial;
+}
+#review{
+    background-color: gold;
+    color: black;
+    padding: 10px;
+    border-radius: 15px;
+    margin: auto;
+    width: 300px;
+    font-family: Arial;
+}
