@@ -11,17 +11,21 @@ function calculate(){
     const review = document.getElementById("review");
     let ncgpa;
     let remark;
-    if (total === 0) {
-        alert("Enter atleast 1 field");
+
+    if(total === 0){
+        review.innerHTML="Enter any 1 field";
+        alert("Please enter the values !!!")
+        return;
     }
+
     ncgpa = (10*sgrade + 9*agrade + 8*bgrade + 7*cgrade + 6*dgrade + 5*egrade)/total;
     let cgpa = Math.ceil(ncgpa*100)/100;
 
-    if(cgpa > 9) {
+    if(cgpa >= 9) {
         remark = "Wow! Nailed it";
-    } else if (cgpa > 8) {
+    } else if (cgpa >= 8) {
         remark = "Doing great!";
-    } else if (cgpa > 7) {
+    } else if (cgpa >= 7) {
         remark = "Good, study a bit";
     } else {
         remark = "Needs to improve";
