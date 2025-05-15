@@ -12,7 +12,7 @@ function calculate(){
     let ncgpa;
     let remark;
     if (total === 0) {
-        review.innerHTML="Enter atleast 1 field";
+        alert("Enter atleast 1 field");
     }
     ncgpa = (10*sgrade + 9*agrade + 8*bgrade + 7*cgrade + 6*dgrade + 5*egrade)/total;
     let cgpa = Math.ceil(ncgpa*100)/100;
