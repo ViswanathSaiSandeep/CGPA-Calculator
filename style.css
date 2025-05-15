@@ -1,11 +1,12 @@
 div{
     border-radius: 15px;
-    background-color: whitesmoke;
+    background-color: white;
     padding: 10px;
     text-align: center;
     width: 300px;
     margin: auto;
     font-family: Arial;
+    box-shadow: 2px 2px 15px grey;
 }
 h1{
     color: white;
@@ -30,7 +31,7 @@ button{
 }
 body{
     text-align: center;
-    background-color: darkblue;
+    background-color: white;
     font-family: Arial;
 }
 #review{
